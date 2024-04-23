@@ -5,8 +5,8 @@ public class RandomStringChooser
   private ArrayList<String> str;
   public RandomStringChooser(String [] s){
     str = new ArrayList<String>();
-  for(int i = 0; i < s.length;i++)
-    str.add(s[i]);
+  for(String w; s)
+    str.add(w);
   }
   public String getNext(){
   if(str.size() == 0)
