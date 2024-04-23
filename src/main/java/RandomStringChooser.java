@@ -4,6 +4,7 @@ public class RandomStringChooser
   /* to be implemented in part (a) */
   private ArrayList<String> str;
   public RandomStringChooser(String [] s){
+    str = new ArrayList<String>();
   for(int i = 0; i < s.length;i++)
     str.add(s[i]);
   }
