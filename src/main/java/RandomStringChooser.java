@@ -2,17 +2,17 @@ import java.util.*;
 public class RandomStringChooser
 {
   /* to be implemented in part (a) */
-  private ArrayList<String> str;
+  private ArrayList<String> st;
   public RandomStringChooser(String [] s){
-    str = new ArrayList<String>();
+    st = new ArrayList<String>();
   for(String w; s)
-    str.add(w);
+    st.add(w);
   }
   public String getNext(){
-  if(str.size() == 0)
+  if(st.size() == 0)
     return "NONE";
-  int i = (int)(Math.random()*str.size());
-    return str.remove(i);
+  int i = (int)(Math.random()*st.size());
+    return st.remove(i);
   }
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
